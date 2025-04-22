@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ag-theme-material .ag-header-cell {
+    background-color: #f8f9fa;
+    font-weight: bold;
+  }
+  
