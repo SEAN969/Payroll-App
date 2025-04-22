@@ -1,7 +1,7 @@
 import { ColumnDef } from '@tanstack/react-table';
 
 export type Employee = {
-  id: number;
+  employeenumber: string;
   firstname: string;
   surname: string;
   salutation: string;
@@ -9,7 +9,7 @@ export type Employee = {
 };
 
 export const columns: ColumnDef<Employee>[] = [
-  { accessorKey: 'id', header: 'ID' },
+  { accessorKey: 'employeenumber', header: 'Employee #' },
   { accessorKey: 'firstname', header: 'First Name' },
   { accessorKey: 'surname', header: 'Surname' },
   { accessorKey: 'salutation', header: 'Salutation' },
